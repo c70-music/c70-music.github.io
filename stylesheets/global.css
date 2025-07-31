@@ -1,0 +1,15 @@
+body {
+    background-color: #ffffff;
+    color: #48484a;
+    font-family: "Arial";
+    font-size: x-large;
+}
+.header {
+    font-size: xx-large;
+    font-weight: bolder;
+    line-height: 5px;
+}  
+.block {
+    border-style: solid;
+    border-color: #3fb3a0;
+}
