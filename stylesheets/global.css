@@ -1,22 +1,48 @@
+[data-theme="light"] {
+    --color-bg: #ffffff;
+    --color-fg: #000000;
+}
+
+[data-theme="dark"] {
+    --color-bg: #000000;
+    --color-fg: #ffffff;
+}
+
+header {
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+}
+
+header pre {
+    margin-top: 0px;
+}
+
 body {
-    background-color: #ffffff;
-    color: #48484a;
+    background-color: var(--color-bg);
+    color: var(--color-fg);
     font-family: "Arial";
     font-size: x-large;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
 }
+
 .header {
     font-weight: bolder;
     line-height: 5px;
-}  
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
 .block {
     border-style: solid;
     border-color: #b33f3f;
 }
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;    
+    overflow: hidden;
 }
 
 nav ul li {
@@ -33,4 +59,16 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #FFFFF0;
+}
+
+button {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  transition: all var(--global-transition-time) ease-in-out;
+  border-radius: 2rem;
+  cursor: pointer;
+  color: var(--color-fg);
+  background-color: var(--color-bg);
+  border: 0.25rem solid var(--color-fg);
 }
