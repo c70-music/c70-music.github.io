@@ -1,3 +1,4 @@
+/** https://dev.to/whitep4nth3r/the-best-lightdark-mode-theme-toggle-in-javascript-368f */
 /**
 * Utility function to calculate the current theme setting.
 * Look for a local storage value.
