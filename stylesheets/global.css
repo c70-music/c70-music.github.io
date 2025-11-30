@@ -11,6 +11,12 @@
 
 }
 
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
 header {
     background-color: var(--color-bg);
     color: var(--color-fg);
@@ -20,6 +26,10 @@ header {
     border-bottom: ridge;
     border-width: 10px;
     /* width: span; */
+}
+.site-header a {
+    text-decoration: inherit;
+    color: inherit;
 }
 
 .site-name {
