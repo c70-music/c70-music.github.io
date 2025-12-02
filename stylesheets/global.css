@@ -35,7 +35,7 @@ header {
     background-color: var(--color-highlight);
 }
 .site-name {
-    width: 33%;
+    width: 33vw;
     height: 10%;
 }
 
