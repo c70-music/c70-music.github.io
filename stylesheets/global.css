@@ -31,7 +31,9 @@ header {
     text-decoration: inherit;
     color: inherit;
 }
-
+.site-header a:hover {
+    background-color: var(--color-highlight);
+}
 .site-name {
     width: 33%;
     height: 10%;
