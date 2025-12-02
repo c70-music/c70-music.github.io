@@ -21,7 +21,7 @@ header {
     background-color: var(--color-bg);
     color: var(--color-fg);
     display: flex;
-    font-size: 0.5vw;
+    font-size: 0.4vw;
     align-content: stretch;
     border-bottom: ridge;
     border-width: 10px;
@@ -46,7 +46,7 @@ header {
 }
 
 header button {
-    font-size: 0.5vw;
+    font-size: 0.4vw;
     margin-top: 0;
     padding-top: 0px;
     transition: all var(--global-transition-time) ease-in-out;
