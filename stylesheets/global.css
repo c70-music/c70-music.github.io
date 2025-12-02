@@ -124,3 +124,6 @@ nav.site-nav ul li a:hover {
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+.blog-post {
+    margin: 0 3vmax 0 3vmax;
+}
