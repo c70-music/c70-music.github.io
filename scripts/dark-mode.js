@@ -20,23 +20,8 @@ function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark })
 /**
 * Utility function to update the button text and aria-label.
 */
-function updateButton({ buttonEl, isDark }) {
-    const newCta = isDark ? `<pre>░██ ░██           ░██           ░██                                         ░██            
-░██               ░██           ░██                                         ░██            
-░██ ░██ ░████████ ░████████  ░████████    ░█████████████   ░███████   ░████████  ░███████  
-░██ ░██░██    ░██ ░██    ░██    ░██       ░██   ░██   ░██ ░██    ░██ ░██    ░██ ░██    ░██ 
-░██ ░██░██    ░██ ░██    ░██    ░██       ░██   ░██   ░██ ░██    ░██ ░██    ░██ ░█████████ 
-░██ ░██░██   ░███ ░██    ░██    ░██       ░██   ░██   ░██ ░██    ░██ ░██   ░███ ░██        
-░██ ░██ ░█████░██ ░██    ░██     ░████    ░██   ░██   ░██  ░███████   ░█████░██  ░███████  
-              ░██                                                                          
-        ░███████                                                                           
-                                                                                           </pre>` : `<pre>       ░██                     ░██                                            ░██            
-       ░██                     ░██                                            ░██            
- ░████████  ░██████   ░██░████ ░██    ░██   ░█████████████   ░███████   ░████████  ░███████  
-░██    ░██       ░██  ░███     ░██   ░██    ░██   ░██   ░██ ░██    ░██ ░██    ░██ ░██    ░██ 
-░██    ░██  ░███████  ░██      ░███████     ░██   ░██   ░██ ░██    ░██ ░██    ░██ ░█████████ 
-░██   ░███ ░██   ░██  ░██      ░██   ░██    ░██   ░██   ░██ ░██    ░██ ░██   ░███ ░██        
- ░█████░██  ░█████░██ ░██      ░██    ░██   ░██   ░██   ░██  ░███████   ░█████░██  ░███████  </pre>`;
+function updateButton({ buttonEl, isDark }) { 
+    const newCta = isDark ? `light mode`: `dark mode`;
  const newAria = isDark ? "Switch to light mode" : "Switch to dark mode"
     // use an aria-label if you are omitting text on the button
     // and using a sun/moon icon, for example

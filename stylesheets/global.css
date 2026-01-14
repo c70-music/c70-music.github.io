@@ -21,7 +21,7 @@ header {
     background-color: var(--color-bg);
     color: var(--color-fg);
     display: flex;
-    font-size: 0.4vw;
+    font-size: 5vw;
     align-content: stretch;
     border-bottom: ridge;
     border-width: 10px;
@@ -30,23 +30,14 @@ header {
 .site-header a {
     text-decoration: inherit;
     color: inherit;
+    width: 33%;
 }
 .site-header a:hover {
     background-color: var(--color-highlight);
 }
-.site-name {
-    width: 33vw;
-    height: 10%;
-}
-
- header pre {
-    margin-top: 10px;
-    margin-bottom: 0px;
-    white-space: pre-wrap;
-}
 
 header button {
-    font-size: 0.4vw;
+    font-size: 5vw;
     margin-top: 0;
     padding-top: 0px;
     transition: all var(--global-transition-time) ease-in-out;
@@ -98,7 +89,7 @@ nav.site-nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 nav.site-nav ul li {
@@ -106,7 +97,6 @@ nav.site-nav ul li {
 }
 
 nav.site-nav ul li a {
-    display: block;
     color: rgb(176, 15, 15);
     text-align: center;
     text-decoration: none;
